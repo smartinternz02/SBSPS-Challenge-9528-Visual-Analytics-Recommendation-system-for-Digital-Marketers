@@ -17,7 +17,7 @@ const firebaseApp = firebase.initializeApp({
       .then((userCredential) => {
         // Signed in 
         var user = userCredential.user;
-        
+      
         // ...
       })
       .catch((error) => {
