@@ -15,8 +15,9 @@
 
 body{
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(to right,#82D8F1,#A2EEEA);
+  /* background: linear-gradient(to right,#82D8F1,#A2EEEA); */
   height: 100vh;
+  background-color: #1B202C;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -28,7 +29,7 @@ body{
   height: 350px;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
-  border-right: 30px solid #4286F5;
+  /* border-right: 30px solid #4286F5; */
   padding: 30px;
   border-radius: 5px;
 }
@@ -46,7 +47,7 @@ body{
     margin-bottom: 20px;
   }
 
-.email label{
+.user label{
   font-size: 10px;
   text-transform: uppercase;
   color:#A1A1A1;

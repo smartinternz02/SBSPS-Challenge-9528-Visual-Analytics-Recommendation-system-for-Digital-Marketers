@@ -151,7 +151,7 @@ section{
     color:var(--main-color);
 }
 
-.header .cart-items-container{
+.header .logo-items-container{
     position: absolute;
     top:100%; right: -100%;
     height: calc(100vh - 9.5rem);
@@ -160,19 +160,21 @@ section{
     padding:0 1.5rem;
 }
 
-.header .cart-items-container.active{
+.header .logo-items-container.active{
     right: 0;
 }
 
-.header .cart-items-container .cart-item{
+.header .logo-items-container .logo-item{
     position: relative;
     margin:2rem 0;
     display: flex;
     align-items: center;
     gap:1.5rem;
 }
-
-.header .cart-items-container .cart-item .fa-times{
+.logo-items-container .logo-item .content{
+    font-size: 15px;
+}
+.header .logo-items-container .logo-item .fa-times{
     position: absolute;
     top:1rem; right: 1rem;
     font-size: 2rem;
@@ -180,26 +182,26 @@ section{
     color: var(--black);
 }
 
-.header .cart-items-container .cart-item .fa-times:hover{
+.header .logo-items-container .logo-item .fa-times:hover{
     color:var(--main-color);
 }
 
-.header .cart-items-container .cart-item img{
+.header .logo-items-container .logo-item img{
     height: 7rem;
 }
 
-.header .cart-items-container .cart-item .content h3{
-    font-size: 2rem;
+.header .logo-items-container .logo-item .content h3{
+    font-size: rem;
     color:var(--black);
     padding-bottom: .5rem;
 }
 
-.header .cart-items-container .cart-item .content .price{
+.header .logo-items-container .logo-item .content .price{
     font-size: 1.5rem;
     color:var(--main-color);
 }
 
-.header .cart-items-container .btn{
+.header .logo-items-container .btn{
     width: 100%;
     text-align: center;
 }
@@ -630,26 +632,3 @@ section{
     }
 
 }
-/* chat bot */
-.chat_icon{
-    position: fixed;
-    right: 30px;
-    bottom: 0;
-    font-size: 70px;
-    color: white;
-    cursor: pointer;
-    z-index: 1000;
-}
-/*chat_box*/
-.chat_box{
-    position: fixed;
-    right: 20px;
-    bottom: 100px;
-    width: 400px;
-    height: 75vh;
-    background: #dedede;
-    z-index: 1000;
-    transition:all 0.3s ease-out;
-    transform: scaleY(0);
-}
-    
