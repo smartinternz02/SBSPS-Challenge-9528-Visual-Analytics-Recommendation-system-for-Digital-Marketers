@@ -635,3 +635,12 @@ section{
     }
 
 }
+.btn btn-primary{
+    background-color:#2c4d76;
+    color: white;
+    padding: 120px 25px;
+    text-decoration: none;
+}
+.btn btn-primary:hover{
+    background-color:#2c4d76;
+}
