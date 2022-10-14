@@ -25,7 +25,7 @@ html{
 }
 
 html::-webkit-scrollbar{
-    width: .8rem;
+    width: .7rem;
 }
 
 html::-webkit-scrollbar-track{
@@ -91,7 +91,7 @@ section{
 .header .navbar a{
     margin:0 1rem;
     font-size: 1.6rem;
-    color:#fff;
+    color:white;
 }
 
 .header .navbar a:hover{
@@ -644,3 +644,22 @@ section{
 .btn btn-primary:hover{
     background-color:#2c4d76;
 }
+logo-items-container.button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  logo-items-container.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
