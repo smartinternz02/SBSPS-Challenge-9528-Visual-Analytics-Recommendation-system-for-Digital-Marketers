@@ -25,5 +25,4 @@ const firebaseApp = firebase.initializeApp({
         var errorMessage = error.message;
         // ..
       });
-    
     }
