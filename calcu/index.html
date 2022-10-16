@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script href="script.js"></script>
+    <!-- Font Awesome Icons  -->
+    <link rel="stylesheet" href="calcu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <title>Estimator</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <input type="text" class="screen" placeholder="0" id="screen">
+        <table>
+            <tr>
+                <td>
+                    <button style="color: #ff0000;" onclick="clr()">C</button>
+                </td>
+                <td>
+                    <button style="color: deepskyblue;" onclick="dis('/')">/</button>
+                </td>
+                <td>
+                    <button style="color: deepskyblue;" onclick="dis('%')">%</button>
+                </td>
+                <td>
+                    <button style="color: deepskyblue;" onclick="backspace()">
+                        <i class="fas fa-backspace"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="dis('7')">7</button>
+                </td>
+                <td>
+                    <button onclick="dis('8')">8</button>
+                </td>
+                <td>
+                    <button onclick="dis('9')">9</button>
+                </td>
+                <td>
+                    <button style="color: deepskyblue;" onclick="dis('*')">x</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="dis('4')">4</button>
+                </td>
+                <td>
+                    <button onclick="dis('5')">5</button>
+                </td>
+                <td>
+                    <button onclick="dis('6')">6</button>
+                </td>
+                <td>
+                    <button style="color: deepskyblue;" onclick="dis('-')">-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="dis('1')">1</button>
+                </td>
+                <td>
+                    <button onclick="dis('2')">2</button>
+                </td>
+                <td>
+                    <button onclick="dis('3')">3</button>
+                </td>
+                <td>
+                    <button style="color: deepskyblue;" onclick="dis('+')">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="dis('0')">0</button>
+                </td>
+                <td>
+                    <button onclick="dis('.')">.</button>
+                </td>
+                <td>
+                    <button class="equalsToBtn" onclick="solve()">=</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="calcu.js"> </script>
+</body>
+
+</html>
