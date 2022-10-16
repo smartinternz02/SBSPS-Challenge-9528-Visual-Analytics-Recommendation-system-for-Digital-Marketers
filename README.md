@@ -1,6 +1,2 @@
 # ibmhackchallenge2022
-# ibmhackchallenge2022
-# ibmhackchallenge2022
-# ibmhackchallenge2022
-# ibmhackchallenge2022
-# ibmhackchallenge2022
+https://sivasangarankk.github.io/ibmhackchallenge2022/
