@@ -10,10 +10,15 @@ https://youtu.be/cNnX_Gox4_A
 ![image:2](https://cdn.discordapp.com/attachments/1031236613335941251/1031237221782655088/IMG-20221016-WA0003.jpg)
 ![image:3](https://cdn.discordapp.com/attachments/1031236613335941251/1031237222046912542/IMG-20221016-WA0004.jpg)
 ![image:4](https://user-images.githubusercontent.com/110378312/196046458-504cf877-1562-4639-a5fd-3e247b91f354.png)
-![image:5]()
-![image:6]()
-![image:7]()
-![image:8]()
-![image:9]()
-![image:10]()
+![image:5](https://user-images.githubusercontent.com/110378312/196046494-7c8df43e-ba05-4168-aadd-d2086b4632c2.png)
+![image:6](https://user-images.githubusercontent.com/110378312/196046553-0308660e-3c5f-4ff1-a06a-266360c74d44.png)
+![image:7](https://user-images.githubusercontent.com/110378312/196046565-e20916f1-8f7c-4b1c-aed7-fb6f8761bbf5.png)
+![image:8](https://user-images.githubusercontent.com/110378312/196046571-3ebc090e-58d3-4f54-809e-96214549a106.png)
+![image:9](https://user-images.githubusercontent.com/110378312/196046574-af2b8f3a-7cd2-4f5f-8649-85f53e462320.png)
+![image:10](https://user-images.githubusercontent.com/110378312/196046579-2e0f98a7-6cb2-46a6-8d8f-a7226833f3c1.png)
+![image:11](https://user-images.githubusercontent.com/110378312/196046593-701ea130-d339-47f2-8a5e-6d79080cd47c.png)
+
+
+
+
 
